@@ -1,2 +1,2 @@
-const array=[]
+const array=[1,2]
 
