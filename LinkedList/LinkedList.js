@@ -24,6 +24,17 @@ class Node {
       temp.right = node;
     }
   }
+
+  addElementatHead(key) {
+    let node = new Node(key);
+    if (this.head == null) {
+      this.head = node;
+      return;
+    } else {
+      node.right = this.head;
+      this.head = node;
+    }
+  }
   traverse() {
     let temp = this.head;
     // console.log(temp.right);
@@ -32,11 +43,19 @@ class Node {
       temp = temp.right;
     }
   }
+  removeathead(){
+    let temp = this.head;
+    this.head = temp.right;
+    temp = null;
+  }
 }
 
 let LL = new LinkedList();
-LL.addElement(5);
-LL.addElement(55);
-LL.addElement(555);
-LL.addElement(5555);
+LL.addElementatHead(5);
+LL.addElementatHead(55);
+LL.addElementatHead(555);
+LL.addElementatHead(5555);
+
+LL.traverse();
+LL.removeathead()
 LL.traverse();
