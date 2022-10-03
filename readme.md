@@ -1,7 +1,7 @@
-<h1> This Repo is used for learning DataStructures & Algorithms in javascript and TypeScript(Advanced)
+<h1> This Repo is used for learning DataStructures & Algorithms in javascript and TypeScript(Advanced)</h1>
 
 
-<h2> Contributions <br>
+<h2> Contributions </h2><br>
 
 <p>Add a new JavaScript or TypeScript program  for a problem which don't exist earlier</p>
 <p>It should be in .js or .ts extensions</p>
