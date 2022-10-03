@@ -1,22 +1,19 @@
-const LinkedList =require("../LinkedList");
-
-console.log(LinkedList)
-
-var deleteDuplicates = function (head) {
-  let temp = head,
-    temp2 = head,
-    count = 1;
-  
-  while (temp?.right !== undefined) {
-    console.log(++count)
-    if (temp?.key == temp?.right?.key) {
-      temp.right = temp.right.right;
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+ var deleteDuplicates = function() {
+    let temp=head,temp2=head,count=0;
+    while(temp2.next!=null){
+        count++;
+        temp2=temp2.next;
     }
- else{  temp = temp.right;
-    // console.log(temp)
-  }}
-
-  return temp;
-};
-
-// console.log("~~~~~~~~~~~~~~~~~~`")
+    console.log(count)
+    for(let i=0;i<count;i++){
+        if(temp?.val===temp?.next?.val) { temp.next=temp.next.next;}
+        temp=temp.next
+    }
+    
+    
+    return head;
+  };
