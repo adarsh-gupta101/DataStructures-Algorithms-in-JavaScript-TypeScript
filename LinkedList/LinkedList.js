@@ -6,7 +6,7 @@ class Node {
   }
 }
 
- class LinkedList {
+class LinkedList {
   constructor(key) {
     this.head = null;
   }
@@ -43,7 +43,7 @@ class Node {
       temp = temp.right;
     }
   }
-  removeathead(){
+  removeathead() {
     let temp = this.head;
     this.head = temp.right;
     temp = null;
@@ -51,11 +51,41 @@ class Node {
 }
 
 let LL = new LinkedList();
-LL.addElementatHead(5);
-LL.addElementatHead(55);
-LL.addElementatHead(555);
-LL.addElementatHead(5555);
+LL.addElement(1);
+LL.addElement(1);
+LL.addElement(1);
+// LL.addElement(3);
+// LL.addElement(3);
 
-LL.traverse();
-LL.removeathead()
-LL.traverse();
+// LL.traverse();
+// LL.removeathead()
+// LL.traverse();
+
+// LL.addElement(1);
+// console.log(LL);
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+ var deleteDuplicates = function() {
+  let temp=head,temp2=head,count=0;
+  while(temp2.next!=null){
+      count++;
+      temp2=temp2.next;
+  }
+  console.log(count)
+  for(let i=0;i<count;i++){
+      if(temp?.val===temp?.next?.val) { temp.next=temp.next.next;}
+      temp=temp.next
+  }
+  
+  
+  return head;
+};
