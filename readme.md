@@ -1,7 +1,6 @@
 <h1> This Repo is used for learning DataStructures & Algorithms in javascript and TypeScript(Advanced)</h1>
 
-![JS AND TS]("./JSTS.webp")
-
+<img src="JSTS.webp" width={120} height={120}/>
 <h2> Contributions </h2><br>
 
 <p>Add a new JavaScript or TypeScript program  for a problem which don't exist earlier</p>
