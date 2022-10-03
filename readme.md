@@ -10,3 +10,12 @@
 <p>Review other PR's as well</p>
 <p>No Spamming allowed, make sure to include all programs in one PR.</p>
 <p>Add a folder or file following the repo convention</p>
+
+<h2> How to Contribute </h2><br>
+<p>1. Fork the repo</p>
+<p>2. Clone the repo</p>
+<p>3. Create a new branch</p>
+<p>4. Add your program</p>
+<p>5. Commit and push</p>
+<p>6. Make a PR and create an issue and Link the PR</p>
+<p>7. Wait for acceptance😍</p>
