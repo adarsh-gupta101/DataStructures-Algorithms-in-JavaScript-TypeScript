@@ -1,1 +1,2 @@
 - [Fajril Pratama](https://github.com/zapellass123)
+- [Galby](https://github.com/gabutteam18)
