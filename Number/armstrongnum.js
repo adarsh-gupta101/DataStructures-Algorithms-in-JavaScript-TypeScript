@@ -11,13 +11,10 @@ function Armstrong(n){
 
     }
 
-    if(sum == n){
-        return(`${n} is a Armstrong Number`);
-    }
-
-    else{
-        return(`${n} is not a Armstrong Number`);
-    }
+    if(sum == n) return(`${n} is a Armstrong Number`);
+    
+    return(`${n} is not a Armstrong Number`);
+    
 }
 
 Armstrong(370);
