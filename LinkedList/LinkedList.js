@@ -50,23 +50,8 @@ class LinkedList {
   }
 }
 
-let LL = new LinkedList();
-LL.addElement(1);
-LL.addElement(1);
-LL.addElement(1);
-// LL.addElement(3);
-// LL.addElement(3);
-
-// LL.traverse();
-// LL.removeathead()
-// LL.traverse();
-
+// let LL = new LinkedList();
 // LL.addElement(1);
-// console.log(LL);
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
+// LL.addElement(1);
+// LL.addElement(1);
+
