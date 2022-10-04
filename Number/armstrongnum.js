@@ -12,11 +12,11 @@ function Armstrong(n){
     }
 
     if(sum == n){
-        console.log(`${n} is a Armstrong Number`);
+        return(`${n} is a Armstrong Number`);
     }
 
     else{
-        console.log(`${n} is not a Armstrong Number`);
+        return(`${n} is not a Armstrong Number`);
     }
 }
 
