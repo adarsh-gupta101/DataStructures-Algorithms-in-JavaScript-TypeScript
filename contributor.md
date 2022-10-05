@@ -1,2 +1,3 @@
 - [Fajril Pratama](https://github.com/zapellass123)
 - [Nobuyaki](https://github.com/nobuyaki)
+- [Muhammad Najib Bala](https://github.com/NAJIB-B)
