@@ -1,5 +1,3 @@
-<script>
-
 function insertionSort(arr, n)
 {
 	let i, key, j;
@@ -34,5 +32,4 @@ function printArray(arr, n)
 	printArray(arr, n);
 	
 
-	
-</script>
+
